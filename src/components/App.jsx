@@ -1,9 +1,10 @@
 import React from "react";
+import SeasonDisplay from "./seasonDisplay";
 
 function App() {
   return (
     <>
-      <h1>Hello weather</h1>
+      <SeasonDisplay />
     </>
   );
 }
